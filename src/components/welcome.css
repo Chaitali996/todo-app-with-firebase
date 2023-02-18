@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+
+.welcome{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(122.19deg, #da2079 1.89%, #2a00d5 113.56%);
+    position: relative;
+    overflow: hidden;
+}
+.todo-svg{
+    width: 40%;
+    margin-left: 55rem;
+    margin-top: 15rem;
+}
+
+.welcome > h1{
+    font-family: 'Changa One';
+    font-weight: normal;
+    font-size: 120px;
+    left: 150px;
+    top: 100px;
+    position: absolute;
+    color: white;
+}
+.login-register-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 44px 50px;
+    /* left: 78px; */
+    left: 200px;
+    top: 300px;
+    background: #ffffff;
+}
+.login-register-container > input{
+    height: 30px;
+    width: 80%;
+    border: 1px solid gray;
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.login-register-container > button{
+    padding: 5px 20px;
+    border: none;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.sign-in-register-button{
+    background: linear-gradient(122.19deg, #da2079 1.89%, #2a00d5 113.56%);
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Changa One';
+    font-weight: normal;
+    color: white;
+}
+
+.create-account-button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.todo-sav{
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+    transform: scale(1.25);
+}
+@media screen and (max-device-width: 1024px){
+    .welcome > h1{
+        font-family: 'Changa One';
+        font-weight: normal;
+        font-size: 50px;
+        left: 130px;
+        top: 100px;
+        position: absolute;
+        color: white;
+        text-align: center;
+    }
+    .login-register-container{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 40px 20px;
+        left: 78px;
+        /* left: 200px; */
+        top: 250px;
+        background: #ffffff;
+    }
+    .todo-svg{
+        width: 40%;
+        margin-left: 35rem;
+        margin-top: 18rem;
+    }
+}
+@media screen and (max-device-width: 768px){
+    .welcome > h1{
+        font-family: 'Changa One';
+        font-weight: normal;
+        font-size: 70px;
+        left: 13rem;
+        top: 100px;
+        position: absolute;
+        color: white;
+        text-align: center;
+    }
+    .login-register-container{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 40px 20px;
+        /* left: 100px; */
+        left: 8rem;
+        right: 8rem;
+        top: 250px;
+        background: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .todo-svg{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-device-width: 480px){
+    .welcome > h1{
+        font-family: 'Changa One';
+        font-weight: normal;
+        font-size: 60px;
+        left: 2.5rem;
+        top: 100px;
+        position: absolute;
+        color: white;
+      
+
+    }
+    .login-register-container{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        padding: 40px 20px;
+        left: 0.5rem;
+        right: 0.5rem;
+        /* left: 200px; */
+        top: 250px;
+        background: #ffffff;
+    }
+    .todo-svg{
+        display: none;
+        
+    }
+}
