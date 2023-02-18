@@ -24,6 +24,11 @@ This is a simple Todo app built using Firebase Realtime Database and Authenticat
 - Added Firebase Authentication for user sign up and log in functionality
 - Designed and implemented the task management interface using HTML, CSS,JavaScript and React
 
+## Hosted Link
+
+You can access the hosted version of the app at the following URL:
+
+[https://todo-app-with-firebase-chaitali.netlify.app/](https://todo-app-with-firebase-chaitali.netlify.app/)
 
 
 
